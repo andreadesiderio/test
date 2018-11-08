@@ -2,7 +2,8 @@
     <section id="contact">
         <div class="inner">
             <section>
-                <form method="post" netlify name="form" action="https://formspree.io/{{ .Site.Params.Contact.formEmail }}">
+                <!-- <form method="post" netlify name="form" action="https://formspree.io/{{ .Site.Params.Contact.formEmail }}"> -->
+                    <form method="post" name="form" netlify>
                     <div class="field half first">
                         <label for="name">Name</label>
                         <input type="text" name="name" id="name" />
